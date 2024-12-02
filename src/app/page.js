@@ -1,14 +1,14 @@
 import Image from "next/image";
 import Navbar from "./Components/Navbar";
-import DoctorsList from "./Components/DoctorsList";
-import DoctorBoxes from "./Components/DoctorBoxes";
+import TeachersList from "./Components/TeachersList";
+import TeachersBoxes from "./Components/TeachersBoxes";
 
 export default function Home() {
   return (
     <div>
       <Navbar/>
-      <DoctorsList/>
-      <DoctorBoxes/>
+      <TeachersList/>
+      <TeachersBoxes/>
     </div>
   );
 }
